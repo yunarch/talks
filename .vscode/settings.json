@@ -1,0 +1,48 @@
+{
+  // Formatter
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Linters
+  "biome.requireConfiguration": true,
+  "oxc.requireConfig": true,
+
+  // Auto fix
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.oxc": "explicit",
+    "source.fixAll.biome": "explicit",
+    "source.removeUnusedImports": "never",
+    "source.organizeImports": "never"
+  },
+  "files.trimTrailingWhitespace": true,
+
+  // IDE options
+  "explorer.sortOrder": "type",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "workbench.editor.highlightModifiedTabs": true,
+  "problems.decorations.enabled": true,
+
+  // Add prettier for files that biome doesn't support
+  // https://biomejs.dev/internals/language-support/
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[instructions]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // Customize AI responses
+  "chat.agentSessionsViewLocation": "view",
+  "chat.useAgentsMdFile": true,
+  "github.copilot.chat.commitMessageGeneration.instructions": [
+    { "file": ".github/instructions/commit-messages.md" }
+  ]
+}
