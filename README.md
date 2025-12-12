@@ -1,3 +1,3 @@
 # Talks
 
-Slides and codes for my talks.
+Slides and code for my talks.
