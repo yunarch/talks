@@ -2,7 +2,7 @@
   "$schema": "https://json.schemastore.org/package",
   "private": true,
   "version": "1.0.0",
-  "name": "nextjs-innovation-or-over-engineering",
+  "name": "ai-simulated-backends-and-tests",
   "license": "MIT",
   "author": {
     "name": "Adrian Lopez Gonzalez",
